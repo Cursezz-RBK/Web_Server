@@ -1,3 +1,11 @@
+<?php
+// Enable error reporting for debugging
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+
+// Define the target directory for uploads
+$target_dir = "uploads/";
+$target_file = $target_dir . basename($_FILES["file"]["name"]);
 $uploadOk = 1;
 $fileType = strtolower(pathinfo($target_file, PATHINFO_EXTENSION));
 
