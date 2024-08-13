@@ -1,13 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Static Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Upload</title>
 </head>
 <body>
-    <h1>Welcome to My Static Website</h1>
-    <form action="/upload" method="post" enctype="multipart/form-data">
+    <h1>Upload Files to S3</h1>
+    <form id="uploadForm" action="/upload" method="post" enctype="multipart/form-data">
         <input type="file" name="fileToUpload" id="fileToUpload">
-        <input type="submit" value="Upload File" name="submit">
+        <input type="submit" value="Upload File">
     </form>
 </body>
 </html>
