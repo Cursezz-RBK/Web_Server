@@ -2,7 +2,7 @@
 #!/bin/bash
 
 UPLOAD_DIR="/var/www/html/uploads"
-BUCKET_NAME="webserver-activity1-bucket"
+BUCKET_NAME="webserver-activity1-bucket2"
 TIMESTAMP=$(date +"%Y-%m-%d-%H%M")
 
 # Upload files to S3
