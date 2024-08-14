@@ -1,4 +1,3 @@
-[ec2-user@ip-172-31-32-227 ~]$ cat upload_to_s3.sh
 #!/bin/bash
 
 UPLOAD_DIR="/var/www/html/uploads"
